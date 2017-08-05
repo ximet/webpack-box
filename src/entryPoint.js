@@ -1,5 +1,11 @@
 const path = require('path');
 
+/**
+ * Function which create object entry point and context
+ * @param  {string} contextFolder - folder where you have own context project
+ * @param  {array} entries - array entry points 
+ * @returns {object}
+ */
 const entryPoint = (contextFolder, entries) => {
     let resultObject = {};
 
