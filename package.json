@@ -1,0 +1,28 @@
+{
+  "name": "webpack-box",
+  "version": "0.5.0",
+  "description": "Interface for easy setup webpack ",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ximet/webpack-box.git"
+  },
+  "keywords": [
+    "webpack",
+    "box",
+    "setup"
+  ],
+  "author": "ximet <dq.ximet@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/ximet/webpack-box/issues"
+  },
+  "homepage": "https://github.com/ximet/webpack-box#readme",
+  "devDependencies": {
+    "rimraf": "^2.6.1",
+    "webpack": "^3.4.1"
+  }
+}
