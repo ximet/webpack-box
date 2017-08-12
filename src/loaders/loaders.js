@@ -11,6 +11,7 @@ const getLoader = (typeLoader, typeFileList, options) => {
                             .join()})$/`
     return {
       test: regularTest,
+      exclude: /(node_modules|bower_components)/,
       use: {
         loader: typeLoader,
         options: options
