@@ -18,11 +18,6 @@ const getLoader = (typeLoader, typeFileList, options) => {
     };
 }
 
-const styleLoader = () => getLoader('style-loader', ['css'], {});
-const cssLoader = () => getLoader('css-loader', ['css'], {options: {modules: true}})
-
 module.exports = {
-    getLoader,
-    styleLoader,
-    cssLoader
+    getLoader
 }
